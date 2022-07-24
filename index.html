@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora simples</title>
+</head>
+<!-- @YANGOMES010 -->
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Calculadora simples</h1>
+            <p>Insira um número:
+                <input type="number" name="number" id="number">
+            </p>
+            <p>Insira outro número:
+                <input type="number" name="number1" id="number1">
+            </p>
+            <div class="buttons">
+                <button id="somar" onclick="somarE()" class="btnCALC">SOMAR</button>
+                <button id="subtrair" onclick="subtrairE()" class="btnCALC">SUBTRAIR</button>
+                <button id="multiplicar" onclick="multiplicarE()" class="btnCALC">MULTIPLICAR</button>
+                <button id="dividir" onclick="dividirE()" class="btnCALC">DIVIDIR</button>
+            </div>
+            <h3 id="resultado"></h3>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
